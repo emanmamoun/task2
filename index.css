@@ -1,0 +1,126 @@
+*
+{
+	box-sizing: border-box;
+}
+
+.content
+{
+	width: 1200px;
+	height: 700px;
+	border:2px solid black;
+	margin: auto;
+	box-sizing: border-box;
+	
+}
+.left
+{
+	width: 75%;
+	height: 700px;
+	border:2px solid red;
+	float: left;
+	box-sizing: border-box;
+	background-image: url(image.jpg);
+	background-size: cover;
+	
+	
+}
+.right
+{
+	width: 25%;
+	height: 700px;
+	border:2px solid blue;
+	float: right;
+	box-sizing: border-box;
+	
+}
+.inLeft
+{
+	width: 500px;
+	height: 550px;
+	border:2px solid white;
+	margin:20px 350px 20px;
+	background-color: white;
+}
+.fraim
+{
+	width :400px;
+	height: 500px;
+	border-radius: 20px;
+	border:2px solid white;
+	margin: 20px 40px;
+	box-shadow: 2px 2px 5px 5px orange,
+	            -2px -2px 5px 5px orange;
+}
+
+.p1
+{
+	font-size: 40px;
+	color: white;
+	margin: 40px;
+	text-transform: uppercase;
+}
+.p2
+{
+	font-size: 40px;
+	color: blue;
+	
+	text-transform: uppercase;
+	text-align: center;
+}
+.p3
+{
+	font-size: 25px;
+	color: black;
+	
+	text-transform: uppercase;
+	text-align: center;
+}
+input
+{
+	border:none;
+	border-radius: 20px;
+	border:2px solid black;
+	margin: 20px;
+	outline: none;
+}
+
+label
+{
+	margin: 10px;
+	font-size: 25px;
+}
+
+button
+{
+	border:none;
+	border-radius: 20px;
+	border:2px solid blue;
+	width: 200px;
+	height: 30px;
+	margin: 50px 100px;
+	outline: none;
+
+
+
+}
+.p4
+{
+	font-size: 20px;
+	text-align: center;
+	color: blue;
+}
+ul
+{
+	font-size: 30px;
+	margin: 50px;
+	padding: 20px;
+	list-style-type: none;
+
+
+}
+li
+{
+	direction: none;
+	margin: 25px;
+	padding: 20px;
+}
